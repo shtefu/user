@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+  background-image: url(https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3667915/910/607/m2/fpnw/wm1/nmzbxenrvudgiuql2gecymrkchyewfixbljlnhzfmcee5aog6m0o0146ltenmjts-.jpg?1512111126&s=09e589f33be51c2630b58b91981bff77);
+  background-image: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+
+
+}
+
+.order{
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  flex: 1 100px;
+  align-items: flex-start;
+  background-color: #c9b6e4;
+  padding: 15px 10pxz;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100px;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex: 1 100px;
+  padding: 15px 10px;
+  background-color: rgba(0,0,0,0.4);
+
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  flex: 1 100px;
+  justify-content: space-evenly;
+}
+
+.You{
+  margin-left: auto;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Item{
+  display: flex;
+  flex-direction: column;
+  flex: 1 100px;
+  align-items: center;
+}
+.addItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  display: block;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+img{
+  max-width: 100%;
+  height: 100vh;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0.8rem;
+
+}
+.qty{
+  display: flex;
+  flex-direction: row;
+  align-items: center;border: none;
+  background: white;
+  color: black;
+
+}
+button {
+  display: block;
+  margin: 0;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border: none;
+  background: #50c878;
+  color: black;
+  font-weight: 200;
+  cursor: pointer;
+  outline: none;}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
